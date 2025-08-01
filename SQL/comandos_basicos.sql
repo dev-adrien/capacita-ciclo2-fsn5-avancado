@@ -240,6 +240,8 @@ SELECT * FROM produtos LIMIT 5;
 
 SELECT COUNT(*) FROM produtos;
 
+SELECT SUM(preço) FROM produtos;
+
 SELECT categoria, COUNT(*) FROM produtos GROUP BY categoria;
 
 CREATE TABLE pedidos (
